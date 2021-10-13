@@ -44,14 +44,24 @@ Under Resources on the left panel, select Items then click the Add new item butt
 
 From the **Resource Template** dropdown **select** the appropriate template, e.g., **Image** (scanned photo), **Text** (letter), **Physical Object** (building), **Person/Agent** (person) depending on the item. This will add Dublin Core element fields to fill in. Since most sites we're building/migrating from aren't rich in metadata, fill in as many as you can, but certainly the following three elements: **Title, Description, and Date**. If available, put the Record Group #, e.g., 9-0431, 29-0056, in the Identifier field.
 
+I gathered the metadata in the image below from the following sources: image file name, hover-over text and paragraph text from original encyclopedia page, and alt-text via Dev Tools, if available
+
+![Item Metadata](./help_files/Item_Metadata_Laundry.png "Item Metadata")*Fill out Item Metadata*
+
 #### Person/Agent Linked Data
 
 If the item is a person, search [Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), and [VIAF](https://viaf.org/) to add a URI to the item record in Omeka S.
 If they are in any of the locations above (LCNAF, Wikidata, or VIAF), add each URI as an identifier in the Omeka S item record.
 
-I gathered the metadata in the image below from the following sources: image file name, hover-over text and paragraph text from original encyclopedia page, and alt-text via Dev Tools, if available
+![Wikidata](./help_files/Name_URI_Wiki.png "Wikidata")*Wikidata*
 
-![Item Metadata](./help_files/Item_Metadata_Laundry.png "Item Metadata")*Fill out Item Metadata*
+![VIAF](./help_files/Name_URI_VIAF.png "VIAF")*VIAF*
+
+![LCNAF](./help_files/Name_URI_LCNAF.png "LCNAF")*LCNAF*
+
+These three URI in the dc:identifier field should look like the image below.
+
+![Identifier](./help_files/Name_DC_Identifier.png "Complete Identifiers")*Identifier URIs*
 
 #### Add Media
 

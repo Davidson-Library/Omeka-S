@@ -25,7 +25,7 @@ This page is intended to give guidance on migrating static HTML sites or WordPre
   - [Copy Text for HTML Blocks](#copy-text-for-html-blocks)
   - [Add Media Embed Block](#add-media-embed-block)
   - [Works Cited HTML Block](#works-cited-html-block)
-- [Save and View each page for consistency and accessibility](#save-and-view-each-page-for-consistency-and-accessibility)
+  - [Save and View each page for consistency and accessibility](#save-and-view-each-page-for-consistency-and-accessibility)
 
 ___
 
@@ -40,11 +40,15 @@ ___
 ### Create an item in Omeka S for each image with media
 
 #### Add New Item
+<details>
+  <summary> Click to expand!</summary>
+
 
 Under Resources on the left panel, select Items then click the Add new item button near the top-right corner.
 
 ![items menu](./help_files/Items_Menu.png "Item Menu")*Resources > Items Menu*
 ![Add New Item](./help_files/Add_New_Item_Button.png "Add New Item")*Add New Item*
+</details>
 
 #### Select Resource Template
 
@@ -180,7 +184,7 @@ Update any hyperlinks and URLs from the original site to the new Omeka S page.
 
 ![Update Link Dialog Box](./help_files/Update_Link.png "Update Link")*Update the URL*
 
-### Save and View each page for consistency and accessibility
+#### Save and View each page for consistency and accessibility
 
 **Click Save** then **View** to see what the public view looks like. You may need to adjust the alignment, but **medium** and **left/right** for the media embed seems to do best as "center" doesn't look all that great.
 

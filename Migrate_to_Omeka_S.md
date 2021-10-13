@@ -40,15 +40,11 @@ ___
 ### Create an item in Omeka S for each image with media
 
 #### Add New Item
-<details>
-  <summary> Click to expand!</summary>
-
 
 Under Resources on the left panel, select Items then click the Add new item button near the top-right corner.
 
 ![items menu](./help_files/Items_Menu.png "Item Menu")*Resources > Items Menu*
 ![Add New Item](./help_files/Add_New_Item_Button.png "Add New Item")*Add New Item*
-</details>
 
 #### Select Resource Template
 

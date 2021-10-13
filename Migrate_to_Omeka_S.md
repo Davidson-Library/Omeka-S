@@ -6,9 +6,9 @@ This page is intended to give guidance on migrating static HTML sites or WordPre
 
 ## Overview of process
 
-- [Create Site in Omeka S.](#create-site-in-omeka-s)
-- [Download images from HTML site and back up in Google Drive folder.](#download-images-from-html-site-and-back-up-in-google-drive-folder)
-- [Create an item in Omeka S for each image with media.](#create-an-item-in-omeka-s-for-each-image-with-media)
+- [Create Site in Omeka S](#create-site-in-omeka-s)
+- [Download images from HTML site and back up in Google Drive folder](#download-images-from-html-site-and-back-up-in-google-drive-folder)
+- [Create an item in Omeka S for each image with media](#create-an-item-in-omeka-s-for-each-image-with-media)
   - [Add New Item](#add-new-item)
   - [Select Resource Template](#select-resource-template)
   - [Person/Agent Linked Data](#personagent-linked-data)
@@ -16,25 +16,29 @@ This page is intended to give guidance on migrating static HTML sites or WordPre
   - [Add Media Description](#add-media-description)
   - [Find Alt Text](#find-alt-text)
   - [Remove Sites from Item](#remove-sites-from-item)
-- [Create pages in Omeka mirroring the pages or headings in HTML site depending on the structure.](#create-pages-in-omeka-mirroring-the-pages-or-headings-in-html-site-depending-on-the-structure)
-- [Add blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site.](#add-blocks-to-each-omeka-s-page-eg-html-and-media-embed-to-mirror-the-structure-of-original-html-site)
-- [Save and View each page for consistency and accessibility.](#save-and-view-each-page-for-consistency-and-accessibility)
+  - [Mapping for Locations and Buildings](#mapping-for-locations-and-buildings)
+- [Create pages in Omeka mirroring the pages or headings in HTML site depending on the structure](#create-pages-in-omeka-mirroring-the-pages-or-headings-in-html-site-depending-on-the-structure)
+- [Add blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site](#add-blocks-to-each-omeka-s-page-eg-html-and-media-embed-to-mirror-the-structure-of-original-html-site)
+- [Save and View each page for consistency and accessibility](#save-and-view-each-page-for-consistency-and-accessibility)
 
+___
 
-
-### Create Site in Omeka S.
+### Create Site in Omeka S
 
 [COMING SOON]
 
-### Download images from HTML site and back up in Google Drive folder.
-### Create an item in Omeka S for each image with media.
+### Download images from HTML site and back up in Google Drive folder
+
+[COMING SOON]
+
+### Create an item in Omeka S for each image with media
 
 #### Add New Item
 
 Under Resources on the left panel, select Items then click the Add new item button near the top-right corner.
-   
-![items menu](./help_files/Items_Menu.png "Item Menu")
-![Add New Item](./help_files/Add_New_Item_Button.png "Add New Item")
+
+![items menu](./help_files/Items_Menu.png "Item Menu")*Resources > Items Menu*
+![Add New Item](./help_files/Add_New_Item_Button.png "Add New Item")*Add New Item*
 
 #### Select Resource Template
 
@@ -45,15 +49,15 @@ From the **Resource Template** dropdown **select** the appropriate template, e.g
 If the item is a person, search [Library of Congress Name Authority File (LCNAF)](https://id.loc.gov/authorities/names.html), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), and [VIAF](https://viaf.org/) to add a URI to the item record in Omeka S.
 If they are in any of the locations above (LCNAF, Wikidata, or VIAF), add each URI as an identifier in the Omeka S item record.
 
-_I gathered the metadata in the image below from the following sources: image file name, hover-over text and paragraph text from original encyclopedia page, and alt-text via Dev Tools, if available_
+I gathered the metadata in the image below from the following sources: image file name, hover-over text and paragraph text from original encyclopedia page, and alt-text via Dev Tools, if available
 
-![Item Metadata](./help_files/Item_Metadata_Laundry.png "Item Metadata")
+![Item Metadata](./help_files/Item_Metadata_Laundry.png "Item Metadata")*Fill out Item Metadata*
 
 #### Add Media
 
 Select the Media tab, click Upload under Add media on the right, give the media a Title (I used the same item title), choose file and select Save.
 
-![Upload Media](./help_files/New_Item_Media.png "Upload Media")
+![Upload Media](./help_files/New_Item_Media.png "Upload Media")*Upload or Link Media*
 
 #### Add Media Description
 
@@ -79,8 +83,28 @@ Remove any sites you from the **Sites tab** that you don't to appear in via the 
 
 ![Remove Sites](./help_files/New_Item_Sites.png "Remove Sites")*Remove Sites*
 
-### Create pages in Omeka mirroring the pages or headings in HTML site depending on the structure.
+#### Mapping for Locations and Buildings
 
-### Add blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site.
+If you're adding an item that is a location, e.g., campus building, add data to the **Mapping** tab.
 
-### Save and View each page for consistency and accessibility.
+![Add Mapping](./help_files/Add_Mapping_Item.png "Mapping Tab")*Mapping Tab in Item*
+
+Zoom into the location on the map. I used the [custom Google Maps](https://www.google.com/maps/d/u/0/viewer?msa=0&hl=en&ie=UTF8&t=h&ll=35.50058299999999%2C-80.842356&spn=0.005241%2C0.00751&z=17&source=embed&mid=1vWP_iahd5am7_7S615B97tZK0zE) by Archives Special Collections and Community.
+
+![Add Point Button](./help_files/Add_Mapping_Point1.png "Add Point Button")*Add Point Button*
+
+Click on the map to place the marker.
+
+![Place Marker](./help_files/Add_Mapping_Point2.png "Place Marker")*Place Marker*
+
+Click on the marker to add an image.
+
+![Marker Image](./help_files/Add_Mapping_Marker_Image1.png "Select Marker Image")*Select Marker Image*
+
+**Click Save** to complete the Item!
+
+### Create pages in Omeka mirroring the pages or headings in HTML site depending on the structure
+
+### Add blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site
+
+### Save and View each page for consistency and accessibility

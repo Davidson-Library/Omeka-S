@@ -17,8 +17,14 @@ This page is intended to give guidance on migrating static HTML sites or WordPre
   - [Find Alt Text](#find-alt-text)
   - [Remove Sites from Item](#remove-sites-from-item)
   - [Mapping for Locations and Buildings](#mapping-for-locations-and-buildings)
-- [Create pages in Omeka mirroring the pages or headings in HTML site depending on the structure](#create-pages-in-omeka-mirroring-the-pages-or-headings-in-html-site-depending-on-the-structure)
-- [Add blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site](#add-blocks-to-each-omeka-s-page-eg-html-and-media-embed-to-mirror-the-structure-of-original-html-site)
+- [Page Setup in Omeka S](#page-setup-in-omeka-s)
+  - [Add New Page](#add-new-page)
+  - [New Page Setup](#new-page-setup)
+  - [Details for Adding Content to Pages](#details-for-adding-content-to-pages)
+- [How to Build Pages](#how-to-build-pages)
+  - [Copy Text for HTML Blocks](#copy-text-for-html-blocks)
+  - [Add Media Embed Block](#add-media-embed-block)
+  - [Works Cited HTML Block](#works-cited-html-block)
 - [Save and View each page for consistency and accessibility](#save-and-view-each-page-for-consistency-and-accessibility)
 
 ___
@@ -95,7 +101,7 @@ Remove any sites you from the **Sites tab** that you don't to appear in via the 
 
 #### Mapping for Locations and Buildings
 
-If you're adding an item that is a location, e.g., campus building, add data to the **Mapping** tab.
+If you're adding an item that is a location, e.g., campus building, add data to the **Mapping** tab. This is enabled by installing the [Mapping Module](https://github.com/omeka-s-modules/Mapping). Documentation can be found on the [Omeka S Docs site](https://omeka.org/s/docs/user-manual/modules/mapping/).
 
 ![Add Mapping](./help_files/Add_Mapping_Item.png "Mapping Tab")*Mapping Tab in Item*
 
@@ -113,8 +119,71 @@ Click on the marker to add an image.
 
 **Click Save** to complete the Item!
 
-### Create pages in Omeka mirroring the pages or headings in HTML site depending on the structure
+### Page Setup in Omeka S
 
-### Add blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site
+The initial goal is to mirror the pages, headings, and media from the original site depending on the structure. The items and media are ready to be contextualized and embedded into pages, which are used as "exhibits" or more typical web pages.
+
+#### Add New Page
+
+Once the site has been created, **click on Pages** on the left panel and the **Add new page** button near the top right.
+
+![Pages Menu](./help_files/New_Page_Panel.png "Pages Menu")*Pages Menu*
+
+![Add New Page](./help_files/New_Page_Button.png "Add New Page")*Add New Page*
+
+#### New Page Setup
+
+Add all info for the new page, including a **Title** and **Slug**. Depending on the page, **check the box next** to **Add to navigation**. Then **click Add**.
+
+![New Page Setup](./help_files/New_Page_Info.png "New Page Setup")*New Page Setup*
+
+#### Details for Adding Content to Pages
+
+Now that the page has been created under the site, you can start adding content to mirror the original HTML/WP site. Below are two screenshots to provide an overview snapshot, including **HTML Blocks** and **Media Embed Blocks**
+
+![Page Layout Example](./help_files/Page_Layout.png "Page Layout Example")*Page Layout Example*
+
+The image above :point_up:  is a snapshot of what a typical page looks like: HTML block as intro text/context, and the Media Embed block. 
+
+Below :point_down: is what it looks like in the public view.
+
+![Layout Public View](./help_files/Layout_Pub_View.png "Layout Public View")*Layout Public View*
+
+### How to Build Pages
+
+Add Blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site
+
+#### Copy Text for HTML Blocks
+Copy the text from the HTML/WP site, either in the HTML view or public view. **Add new HTML block** and **paste** the text/code. If there's a heading, user **Heading 3**.
+
+![HTML Block](./help_files/Add_HTML_Block.png "Add HTML Block")*Add HTML Block*
+
+#### Add Media Embed Block
+
+**Add Media Embed block** and **change Alignment** to **center**, **left**, or **right**, depending on the look and feel.
+
+![Media Embed Block](./help_files/Embed_Media_Block.png "Media Embed")*Embed Media Block*
+
+**Add attachment** (quick add item on right panel) and **click Apply changes**
+
+![Select Item for Embed Block](./help_files/Quick_Add_Item.png "Add Media to Embed")*Add Item to Media Embed Block*
+
+![Media Embed Apply Changes Button](./help_files/Embed_Media_Apply_Changes.png "Media Embed Apply Changes")*Media Embed Apply Changes*
+
+#### Works Cited HTML Block
+
+Make sure to copy over the **Works Cited** section of the original page (if included) with **Works Cited** as a **Header 3**.
+
+![HTML Block Works Cited](./help_files/HTML_Block_Works_Cited.png "Works Cited HTML")*Works Cited Heading HTML Block*
+
+Update any hyperlinks and URLs from the original site to the new Omeka S page.
+
+![Update Link Dialog Box](./help_files/Update_Link.png "Update Link")*Update the URL*
 
 ### Save and View each page for consistency and accessibility
+
+**Click Save** then **View** to see what the public view looks like. You may need to adjust the alignment, but **medium** and **left/right** for the media embed seems to do best as "center" doesn't look all that great.
+
+Run a [WAVE test](https://wave.webaim.org/) to check for missing alt text, or other accessibility errors. If you have 0 errors, "check mark" the appropriate columns in the GSheet tracker.
+
+![Wave Test Screenshot](./help_files/WAVE_Test.png "Wave Test")*Wave Test*

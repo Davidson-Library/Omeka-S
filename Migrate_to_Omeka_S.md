@@ -1,20 +1,18 @@
 # Migrate a Webpage from HTML/WordPress to Omeka S
-
+<!-- no toc -->
 ## Davidson Context
-
+<!-- no toc -->
 This page is intended to give guidance on migrating static HTML sites or WordPress sites to an Omeka S site. Many of the examples are from the ASCC Encyclopedia Migration Project
 
 ## Overview of process
 
-- [Migrate a Webpage from HTML/WordPress to Omeka S](#migrate-a-webpage-from-htmlwordpress-to-omeka-s)
-  - [Davidson Context](#davidson-context)
-  - [Overview of process](#overview-of-process)
-    - [Create Site in Omeka S.](#create-site-in-omeka-s)
-    - [Download images from HTML site and back up in Google Drive folder.](#download-images-from-html-site-and-back-up-in-google-drive-folder)
-    - [Create an item in Omeka S for each image with media.](#create-an-item-in-omeka-s-for-each-image-with-media)
-    - [Create pages in Omeka mirroring the pages or headings in HTML site depending on the structure.](#create-pages-in-omeka-mirroring-the-pages-or-headings-in-html-site-depending-on-the-structure)
-    - [Add blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site.](#add-blocks-to-each-omeka-s-page-eg-html-and-media-embed-to-mirror-the-structure-of-original-html-site)
-    - [Save and View each page for consistency and accessibility.](#save-and-view-each-page-for-consistency-and-accessibility)
+- [Create Site in Omeka S.](#create-site-in-omeka-s)
+- [Download images from HTML site and back up in Google Drive folder.](#download-images-from-html-site-and-back-up-in-google-drive-folder)
+- [Create an item in Omeka S for each image with media.](#create-an-item-in-omeka-s-for-each-image-with-media)
+  - [Find Alt Text](#find-alt-text)
+- [Create pages in Omeka mirroring the pages or headings in HTML site depending on the structure.](#create-pages-in-omeka-mirroring-the-pages-or-headings-in-html-site-depending-on-the-structure)
+- [Add blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site.](#add-blocks-to-each-omeka-s-page-eg-html-and-media-embed-to-mirror-the-structure-of-original-html-site)
+- [Save and View each page for consistency and accessibility.](#save-and-view-each-page-for-consistency-and-accessibility)
 
 
 
@@ -38,7 +36,32 @@ _I gathered the metadata in the image below from the following sources: image fi
 
 ![Item Metadata](./help_files/Item_Metadata_Laundry.png "Item Metadata")
 
+3. Select the Media tab, click Upload under Add media on the right, give the media a Title (I used the same item title), choose file and select Save.
+
+![Upload Media](./help_files/New_Item_Media.png "Upload Media")
+
+4. Media descriptions are used for the alt text. **Copy** the **Item Description** to paste into the **Media Description**. Follow [WebAIM](https://webaim.org/techniques/alttext/#context) for media descriptions to edit the media description to match good practices for alt text. Remove any "image of" or "graphic of" in the description. [WebAIM suggests](https://webaim.org/techniques/alttext/#context) removing these phrases from images.
+
+There's an alt text tab but there's a [Alt Text Module](https://github.com/zerocrates/AltText) where the alt text is pulled from the Media dc:description field by default. This adds to the richness of metadata and allows increased accessibility.
+
+![Copy Item Desc](./help_files/Edit_Item_Desc.png "Copy Item Desc.")*Copy Item Description*
+
+![Edit Media](./help_files/Edit_Media.png "Edit Media")*Edit Media*
+
+![Paste Desc](./help_files/Edit_Media_Desc_Alt.png "Past Media Desc.")*Paste Item Desc. into Media Desc.*
+
+#### Find Alt Text
+
+If there isn't alt-text apparent or there are multiple media for an item and therefore doesn't have a description, check the browser developer tools to find the alt text.
+
+![Dev Tools](./help_files/Alt_Text_Dev_Tools.png "Dev Tools")*Dev Tools for Alt Text*
+
+5. Remove any sites you from the **Sites tab** that you don't to appear in via the browse function on the front end.
+
+![Remove Sites](./help_files/New_Item_Sites.png "Remove Sites")*Remove Sites*
 
 ### Create pages in Omeka mirroring the pages or headings in HTML site depending on the structure.
+
 ### Add blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site.
+
 ### Save and View each page for consistency and accessibility.

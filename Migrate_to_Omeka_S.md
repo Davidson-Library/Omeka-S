@@ -119,7 +119,7 @@ If you're adding an item that is a location, e.g., campus building, add data to 
 
 ![Add Mapping](./help_files/Add_Mapping_Item.png "Mapping Tab")*Mapping Tab in Item*
 
-Zoom into the location on the map. I used the [custom Google Maps](https://www.google.com/maps/d/u/0/viewer?msa=0&hl=en&ie=UTF8&t=h&ll=35.50058299999999%2C-80.842356&spn=0.005241%2C0.00751&z=17&source=embed&mid=1vWP_iahd5am7_7S615B97tZK0zE) by Archives Special Collections and Community.
+Zoom into the location on the map. I used the [custom Google Maps](https://www.google.com/maps/d/u/0/viewer?msa=0&hl=en&ie=UTF8&t=h&ll=35.50058299999999%2C-80.842356&spn=0.005241%2C0.00751&z=17&source=embed&mid=1vWP_iahd5am7_7S615B97tZK0zE) by Archives Special Collections and Community to find locations I was unfamiliar with.
 
 ![Add Point Button](./help_files/Add_Mapping_Point1.png "Add Point Button")*Add Point Button*
 

@@ -11,6 +11,7 @@ This page is intended to give guidance on migrating static HTML sites or WordPre
 - [Create an item in Omeka S for each image with media](#create-an-item-in-omeka-s-for-each-image-with-media)
   - [Add New Item](#add-new-item)
   - [Select Resource Template](#select-resource-template)
+  - [Building/Physical Object](#buildingphysical-object)
   - [Person/Agent Linked Data](#personagent-linked-data)
   - [Add Media](#add-media)
   - [Add Media Description](#add-media-description)
@@ -22,8 +23,9 @@ This page is intended to give guidance on migrating static HTML sites or WordPre
   - [New Page Setup](#new-page-setup)
   - [Details for Adding Content to Pages](#details-for-adding-content-to-pages)
 - [How to Build Pages](#how-to-build-pages)
-  - [Copy Text for HTML Blocks](#copy-text-for-html-blocks)
+  - [Copy Text to HTML Blocks](#copy-text-to-html-blocks)
   - [Add Media Embed Block](#add-media-embed-block)
+  - [Mapping Block](#mapping-block)
   - [Works Cited HTML Block](#works-cited-html-block)
   - [Save and View each page for consistency and accessibility](#save-and-view-each-page-for-consistency-and-accessibility)
 
@@ -53,6 +55,18 @@ From the **Resource Template** dropdown **select** the appropriate template, e.g
 I gathered the metadata in the image below from the following sources: image file name, hover-over text and paragraph text from original encyclopedia page, and alt-text via Dev Tools, if available
 
 ![Item Metadata](./help_files/Item_Metadata_Laundry.png "Item Metadata")*Fill out Item Metadata*
+
+#### Building/Physical Object
+
+If the item you're adding is a building, select the Physical Object Resource Template. The [Numeric Data Types Module](https://omeka.org/s/modules/NumericDataTypes/) and [Mapping Module](https://github.com/omeka-s-modules/Mapping) are integrated with this template/class and the Date field.
+
+![Physical Object Resource](./help_files/Physical_Building_Template.png "Physical Building Resource Template")*Physical Object Resource Template for Buildings*
+
+Instead of a text field for the date, **select Add value** and enter the date info you have. This will allow the addition of a timeline on the mapping module block on pages.
+
+![Physical Object Date Field](./help_files/Physical_Building_Date.png "Physical Object Date Field")*Numeric Data Date Field*
+
+See the [Mapping for Locations and Buildings](#mapping-for-locations-and-buildings) section for more details on item metadata and 
 
 #### Person/Agent Linked Data
 
@@ -143,7 +157,7 @@ Now that the page has been created under the site, you can start adding content 
 
 ![Page Layout Example](./help_files/Page_Layout.png "Page Layout Example")*Page Layout Example*
 
-The image above :point_up:  is a snapshot of what a typical page looks like: HTML block as intro text/context, and the Media Embed block. 
+The image above :point_up:  is a snapshot of what a typical page looks like: HTML block as intro text/context, and the Media Embed block.
 
 Below :point_down: is what it looks like in the public view.
 
@@ -153,7 +167,8 @@ Below :point_down: is what it looks like in the public view.
 
 Add Blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site
 
-#### Copy Text for HTML Blocks
+#### Copy Text to HTML Blocks
+
 Copy the text from the HTML/WP site, either in the HTML view or public view. **Add new HTML block** and **paste** the text/code. If there's a heading, user **Heading 3**.
 
 ![HTML Block](./help_files/Add_HTML_Block.png "Add HTML Block")*Add HTML Block*
@@ -169,6 +184,20 @@ Copy the text from the HTML/WP site, either in the HTML view or public view. **A
 ![Select Item for Embed Block](./help_files/Quick_Add_Item.png "Add Media to Embed")*Add Item to Media Embed Block*
 
 ![Media Embed Apply Changes Button](./help_files/Embed_Media_Apply_Changes.png "Media Embed Apply Changes")*Media Embed Apply Changes*
+
+#### Mapping Block
+
+If you're working with campus buildings, they should be the Physical Object class that integrated with the [Numeric Data Type Module](https://omeka.org/s/modules/NumericDataTypes/), particularily the Date Value.
+
+![Physical Object Date Field](./help_files/Physical_Building_Date.png "Physical Object Date Field")*Numeric Data Date Field*
+
+With the Mapping data and Numeric Data Type Date data added to the **item**, you can display both the physical map and a timeline using the Mapping Block (attachment or query).
+
+![Mapping Block Example](./help_files/Mapping_Block_Timeline.png "Mapping Block")*Mapping Block Example*
+
+If the items have the Physical Obejct Template/Class with the Numeric Value Date, Mapping data, and are part of the query (if using), then both the map and timeline will display on the page.
+
+![Mapping and Timeline Public View](./help_files/Mapping_Timeline_Public.png "Mapping and Timeline Public View")*Map and Timeline View on Public Site*
 
 #### Works Cited HTML Block
 

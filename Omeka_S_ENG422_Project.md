@@ -6,12 +6,13 @@ This page is intended to give guidance on adding items and creating pages for th
 
 ## Overview of Process
 
+- [Create Item Set for Group Items](#create-item-set-for-group-items)
+  - [Create Item Set](#create-item-set)
 - [Create an item in Omeka S for each image with media](#create-an-item-in-omeka-s-for-each-image-with-media)
   - [Add New Item](#add-new-item)
   - [Select Resource Template](#select-resource-template)
   - [Add Media](#add-media)
   - [Add Media Description](#add-media-description)
-  - [Create Item Set](#create-item-set)
   - [Add Item to Item Set](#add-item-to-item-set)
   - [Mapping for Locations and Buildings](#mapping-for-locations-and-buildings)
 - [Page Setup in Omeka S](#page-setup-in-omeka-s)
@@ -23,6 +24,25 @@ This page is intended to give guidance on adding items and creating pages for th
   - [Add Media Embed Block](#add-media-embed-block)
   - [Mapping Block](#mapping-block)
   - [Save and View each page for consistency and accessibility](#save-and-view-each-page-for-consistency-and-accessibility)
+
+### Create Item Set for Group Items
+
+#### Create Item Set
+
+Create a new Item Set by clicking on **Item Sets** under the **Resources** menu on the left and **Add new item set** on the top right.
+
+![Item Sets Menu Button](./help_files/Item_Set_Menu.png "Item Sets Menu Button")
+*Item Sets Menu Button*
+
+![Add New Item Set Button](./help_files/Item_Set_Add_New.png "Add New Item Set Button")
+*Add New Item Set Button*
+
+Make sure the Resource Template is **"Text."** Fill in the **Title and Description** and click **Save**.
+
+![New Item Set Information](./help_files/Item_Set_New_Save.png "New Item Set Save")
+*Fill in Item Set Info and Save*
+
+This will allow your items to be organized by each group project for greater control and display of each group's item set.
 
 ### Create an item in Omeka S for each image with media
 
@@ -66,28 +86,11 @@ There's an alt text tab but there's a [Alt Text Module](https://github.com/zeroc
 
 **Be as descriptive as you can with the media description, but be concise.**
 
-#### Create Item Set
-
-Now that your item and media have metadata, you now need to add it to your group's item set for this course. This will help organize each group's items and allow for easy disply of items on your pages.
-
-Create a new Item Set by clicking on **Item Sets** under the **Resources** menu on the left and **Add new item set** on the top right.
-
-![Item Sets Menu Button](./help_files/Item_Set_Menu.png "Item Sets Menu Button")
-*Item Sets Menu Button*
-
-![Add New Item Set Button](./help_files/Item_Set_Add_New.png "Add New Item Set Button")
-*Add New Item Set Button*
-
-Make sure the Resource Template is **"Text."** Fill in the **Title and Description** and click **Save**.
-
-![New Item Set Information](./help_files/Item_Set_New_Save.png "New Item Set Save")
-*Fill in Item Set Info and Save*
-
 #### Add Item to Item Set
 
-Now that you have an item set for your group, all your items should be added there. This will allow greater control over all your items and allow you to display your items on pages differently.
+Your group should have an Item Set where all your items should be added. This will allow greater control over all your items and allow you to display your items on pages differently.
 
-When creating the item, adding it to the Item Set should be part of the workflow. Click on the **Item sets (1)** tab and **search/filter (2)** for your group's item set. **Select the item Set (3)** and **click Save (4)**.
+Click on the **Item sets (1)** tab and **search/filter (2)** for your group's item set. **Select the item Set (3)** and **click Save (4)**.
 
 ![Add Item to Item Set](./help_files/Item_Set_Add_Item.png "Add Item to Item Set")
 *Add Item to Item Set*

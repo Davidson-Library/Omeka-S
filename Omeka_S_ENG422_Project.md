@@ -11,7 +11,8 @@ This page is intended to give guidance on adding items and creating pages for th
   - [Select Resource Template](#select-resource-template)
   - [Add Media](#add-media)
   - [Add Media Description](#add-media-description)
-  - [Find Alt Text](#find-alt-text)
+  - [Create Item Set](#create-item-set)
+  - [Add Item to Item Set](#add-item-to-item-set)
   - [Mapping for Locations and Buildings](#mapping-for-locations-and-buildings)
 - [Page Setup in Omeka S](#page-setup-in-omeka-s)
   - [Add New Page](#add-new-page)
@@ -53,25 +54,43 @@ Select the Media tab, click Upload under Add media on the right, give the media 
 
 #### Add Media Description
 
-Media descriptions are used for the alt text. **Copy** the **Item Description** to paste into the **Media Description**. Follow [WebAIM](https://webaim.org/techniques/alttext/#context) for media descriptions to edit the media description to match good practices for alt text. Remove any "image of" or "graphic of" in the description. [WebAIM suggests](https://webaim.org/techniques/alttext/#context) removing these phrases from images.
-
-There's an alt text tab but there's a [Alt Text Module](https://github.com/zerocrates/AltText) where the alt text is pulled from the Media dc:description field by default. This adds to the richness of metadata and allows increased accessibility.
-
-![Copy Item Desc](./help_files/Edit_Item_Desc.png "Copy Item Desc.")
-*Copy Item Description*
+Media descriptions are used for the alt text. Follow [WebAIM](https://webaim.org/techniques/alttext/#context) for media descriptions to edit the media description to match good practices for alt text. Remove any "image of" or "graphic of" in the description. [WebAIM suggests](https://webaim.org/techniques/alttext/#context) removing these phrases from images.
 
 ![Edit Media](./help_files/Edit_Media.png "Edit Media")
 *Edit Media*
 
-![Paste Desc](./help_files/Edit_Media_Desc_Alt.png "Past Media Desc.")
-*Paste Item Desc. into Media Desc.*
+![Type Desc](./help_files/Edit_Media_Desc_Alt.png "Type Media Desc.")
+*Type Media Desc.*
 
-#### Find Alt Text
+There's an alt text tab but there's a [Alt Text Module](https://github.com/zerocrates/AltText) where the alt text is pulled from the Media dc:description field by default. This adds to the richness of metadata and allows increased accessibility.
 
-If there isn't alt-text apparent or there are multiple media for an item and therefore doesn't have a description, check the browser developer tools to find the alt text.
+**Be as descriptive as you can with the media description, but be concise.**
 
-![Dev Tools](./help_files/Alt_Text_Dev_Tools.png "Dev Tools")
-*Dev Tools for Alt Text*
+#### Create Item Set
+
+Now that your item and media have metadata, you now need to add it to your group's item set for this course. This will help organize each group's items and allow for easy disply of items on your pages.
+
+Create a new Item Set by clicking on **Item Sets** under the **Resources** menu on the left and **Add new item set** on the top right.
+
+![Item Sets Menu Button](./help_files/Item_Set_Menu.png "Item Sets Menu Button")
+*Item Sets Menu Button*
+
+![Add New Item Set Button](./help_files/Item_Set_Add_New.png "Add New Item Set Button")
+*Add New Item Set Button*
+
+Make sure the Resource Template is **"Text."** Fill in the **Title and Description** and click **Save**.
+
+![New Item Set Information](./help_files/Item_Set_New_Save.png "New Item Set Save")
+*Fill in Item Set Info and Save*
+
+#### Add Item to Item Set
+
+Now that you have an item set for your group, all your items should be added there. This will allow greater control over all your items and allow you to display your items on pages differently.
+
+When creating the item, adding it to the Item Set should be part of the workflow. Click on the **Item sets (1)** tab and **search/filter (2)** for your group's item set. **Select the item Set (3)** and **click Save (4)**.
+
+![Add Item to Item Set](./help_files/Item_Set_Add_Item.png "Add Item to Item Set")
+*Add Item to Item Set*
 
 #### Mapping for Locations and Buildings
 
@@ -79,7 +98,7 @@ If you're adding an item that has a location, e.g., campus building, add data to
 
 ### Page Setup in Omeka S
 
-The initial goal is to mirror the pages, headings, and media from the original site depending on the structure. The items and media are ready to be contextualized and embedded into pages, which are used as "exhibits" or more typical web pages.
+The items and media are ready to be contextualized and embedded into pages, which are used as "exhibits" or as more typical web pages.
 
 #### Add New Page
 
@@ -93,7 +112,7 @@ Once the site has been created, **click on Pages** on the left panel and the **A
 
 #### New Page Setup
 
-Add all info for the new page, including a **Title** and **Slug**. Depending on the page, **check the box next** to **Add to navigation**. Then **click Add**.
+Add all info for the new page, including a **Title** and **URL Slug**. Depending on the page, **check the box next** to **Add to navigation**. Then **click Add**.
 
 ![New Page Setup](./help_files/New_Page_Info.png "New Page Setup")
 *New Page Setup*
@@ -105,7 +124,7 @@ Now that the page has been created under the site, you can start adding content.
 ![Page Layout Example](./help_files/Page_Layout.png "Page Layout Example")
 *Page Layout Example*
 
-The image above :point_up:  is a snapshot of what a typical page looks like: HTML block as intro text/context, and the Media Embed block.
+The image above :point_up: is a snapshot of what a typical page looks like: HTML block as intro text/context, and the Media Embed block.
 
 Below :point_down: is what it looks like in the public view.
 

@@ -8,7 +8,7 @@ This page is intended to give guidance on adding items and creating pages for th
 
 - [Create Item Set for Group Items](#create-item-set-for-group-items)
   - [Create Item Set](#create-item-set)
-- [Create an item in Omeka S for each image with media](#create-an-item-in-omeka-s-for-each-image-with-media)
+- [Create an Item in Omeka S](#create-an-item-in-omeka-s)
   - [Add New Item](#add-new-item)
   - [Select Resource Template](#select-resource-template)
   - [Add Media](#add-media)
@@ -44,7 +44,7 @@ Make sure the Resource Template is **"Text."** Fill in the **Title and Descripti
 
 This will allow your items to be organized by each group project for greater control and display of each group's item set.
 
-### Create an item in Omeka S for each image with media
+### Create an Item in Omeka S
 
 #### Add New Item
 

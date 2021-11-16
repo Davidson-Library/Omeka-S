@@ -22,6 +22,7 @@ This page is intended to give guidance on adding items and creating pages for th
 - [How to Build Pages](#how-to-build-pages)
   - [Type Text in HTML Blocks](#type-text-in-html-blocks)
   - [Add Media Embed Block](#add-media-embed-block)
+  - [Timeline Block](#timeline-block)
   - [Mapping Block](#mapping-block)
   - [Save and View each page for consistency and accessibility](#save-and-view-each-page-for-consistency-and-accessibility)
 
@@ -159,6 +160,10 @@ Details on adding Blocks to Omeka S pages.
 
 ![Media Embed Apply Changes Button](./help_files/Embed_Media_Apply_Changes.png "Media Embed Apply Changes")
 *Media Embed Apply Changes*
+
+#### Timeline Block
+
+If you plan on adding a Timeline to your page, don't worry about creating a new TimelineJS Google Sheet. Omeka has a plugin module for Timelines. See my [other documentation on Timelines](https://github.com/Davidson-Library/Omeka-S/blob/main/Timeline_Config_Block.md).
 
 #### Mapping Block
 

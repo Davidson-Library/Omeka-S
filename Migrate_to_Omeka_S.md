@@ -2,7 +2,7 @@
 <!-- no toc -->
 ## Davidson Context
 <!-- no toc -->
-This page is intended to give guidance on migrating static HTML sites or WordPress sites to an Omeka S site. Many of the examples are from the ASCC Encyclopedia Migration Project
+This page is intended to give guidance on migrating static HTML sites or WordPress sites to an Omeka S site. Many of the examples are from the ASCC Encyclopedia Migration Project.
 
 ## Overview of Process
 

@@ -35,7 +35,7 @@ Create a new Item Set by clicking on **Item Sets** under the **Resources** menu 
 ![Item Sets Menu Button](./help_files/Item_Set_Menu.png "Item Sets Menu Button")
 *Item Sets Menu Button*
 
-![Add New Item Set Button](./help_files/Item_Set_Add_New.png "Add New Item Set Button")
+![Add New Item Set Button](./help_files/Item_Set_Add_New.png "Add New Item Set Button")  
 *Add New Item Set Button*
 
 Make sure the Resource Template is **"Text."** Fill in the **Title and Description**, **"unlock" the set** for others to add to, and click **Save**.

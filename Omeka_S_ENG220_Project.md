@@ -9,6 +9,7 @@ This page is intended to give guidance on adding items and creating pages for th
 - [Create an Item in Omeka S](#create-an-item-in-omeka-s)
   - [Add New Item](#add-new-item)
   - [Select Resource Template](#select-resource-template)
+  - [Add Hobart Park(magazine) as Source](#add-hobart-parkmagazine-as-source)
   - [Add Media](#add-media)
   - [Add Media Description](#add-media-description)
 - [Page Setup in Omeka S](#page-setup-in-omeka-s)
@@ -38,6 +39,16 @@ From the **Resource Template** dropdown **select "ENG 220"**. This will add Dubl
 I gathered the metadata about the issue from the pdf in Google Drive.
 
 ![Google Drive Folder](./help_files/Hobart_Park_Drive_Folder.png "Drive Folder of Issues")
+
+#### Add Hobart Park(magazine) as Source
+
+Since both the issues and entries come from the larger publication, add Hobart Park (magazine) as the source for both the issue and article/entry item.
+
+- **Select "Omeka resource"**, **Items**, then search for and **select "Hobart Park (magazine)"** as the resource.
+
+![Add Source](help_files/Source_Item.png "Add Source to item")
+
+![Select Resource](help_files/Source_Select_Resource.png "Select Resource Button")
 
 **Click "Add"** to save the Item's metadata before adding the media.
 

@@ -26,6 +26,7 @@ This page is intended to give guidance on migrating static HTML sites or WordPre
   - [Copy Text to HTML Blocks](#copy-text-to-html-blocks)
   - [Add Media Embed Block](#add-media-embed-block)
   - [Mapping Block](#mapping-block)
+    - [Map Only](#map-only)
   - [Works Cited HTML Block](#works-cited-html-block)
   - [Save and View each page for consistency and accessibility](#save-and-view-each-page-for-consistency-and-accessibility)
 
@@ -210,7 +211,7 @@ Copy the text from the HTML/WP site, either in the HTML view or public view. **A
 
 #### Mapping Block
 
-If you're working with campus buildings, they should be the Physical Object class that integrated with the [Numeric Data Type Module](https://omeka.org/s/modules/NumericDataTypes/), particularily the Date Value.
+If you're working with campus buildings, they should use the Physical Object class that is integrated with the [Numeric Data Type Module](https://omeka.org/s/modules/NumericDataTypes/), particularily the Date Value. If you're using just the map and no timeline (single building), then skip to [Map Only](#map-only)
 
 ![Physical Object Date Field](./help_files/Physical_Building_Date.png "Physical Object Date Field")
 *Numeric Data Date Field*
@@ -224,6 +225,16 @@ If the items have the Physical Obejct Template/Class with the Numeric Value Date
 
 ![Mapping and Timeline Public View](./help_files/Mapping_Timeline_Public.png "Mapping and Timeline Public View")
 *Map and Timeline View on Public Site*
+
+##### Map Only
+
+If you're only adding a mapping block on a page with a single location, then read on. Add the "Map by attachments" block to the page and "Add attachment"
+
+![Mapping Block](./help_files/Add_Mapping_Page1.png "Map by attachment block on page")
+
+Search for, select, and apply changes for the item you want to attach to the mapping block. Once you see the thumbnail appear as the attachment, **Save** the page and view.
+
+![Mapping Block attachement](./help_files/Add_Mapping_Page2.png "select item for mapping block")
 
 #### Works Cited HTML Block
 

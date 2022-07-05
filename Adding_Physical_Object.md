@@ -19,6 +19,7 @@ This page is intended to give step-by-step instructions on adding items to Omeka
   - [Add Media](#add-media)
   - [Add Media Description](#add-media-description)
   - [Find Alt Text](#find-alt-text)
+  - [Add Item to Item Set](#add-item-to-item-set)
   - [Remove Sites from Item](#remove-sites-from-item)
   - [Mapping for Locations and Buildings](#mapping-for-locations-and-buildings)
 - [Add Physical Object to Page](#add-physical-object-to-page)
@@ -67,6 +68,15 @@ There's an alt text tab but there's a [Alt Text Module](https://github.com/zeroc
 If there isn't alt-text apparent or there are multiple media for a single item and therefore the item description isn't helpful, check the browser developer tools to find the alt text.
 
 ![Dev Tools](./help_files/Alt_Text_Dev_Tools.png "Dev Tools")*Dev Tools for Alt Text*
+
+#### Add Item to Item Set
+
+In the case the physical object is part of a set of similar items, e.g., Campus Buildings, adding the item to an Item Set allows for easier queries for timelines and maps (see more info below).
+
+Click on the **Item Sets** tab, search the Item Set name, select it, and move on.
+
+![Add to Item Set](./help_files/Item_Set_Add.png "Add Item to Item Set")
+![Add to Item Set](./help_files/Item_Set_Add2.png "Add Item to Item Set")
 
 #### Remove Sites from Item
 

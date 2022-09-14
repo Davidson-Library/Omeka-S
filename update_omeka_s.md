@@ -1,4 +1,5 @@
 # Updating Omeka S
+
 Updating Omeka S versions was a little tricky last time.
 
 Omeka S has [documentation for updating manually](https://omeka.org/s/docs/user-manual/install/#updating)
@@ -20,14 +21,14 @@ When replacing the files, upload the zip file and unzip it in the directory.
 Once the files have been replaced, try accessing "digitalprojects.davidson.edu/omeka/admin
 If it gives you an error, try changing the read/write permissions on the files (excluding `.htaccess`) to 644 instead of 664. See this [forum post for more details](https://forum.omeka.org/t/update-to-v-3-0-0-500-internal-server-error/11925/2).
 
-### Module Updating
+## Module Updating
 
 Check the version in the Omeka S admin/Modules section
 ![module version](./help_files/Module_Version_Check.png)
 
 Download the new version from the Modules page
 
-![download new versio](help_files/Module_Version_New_Download.png)
+![download new version](./help_files/Module_Version_New_Download.png)
 
 Compress the old version in the cPanel as a backup
 
@@ -35,11 +36,11 @@ Compress the old version in the cPanel as a backup
 
 Click the Upload button and drag+drop the new module zip file.
 
-![upload new module](help_files/Module_Version_Upload_New.png)
+![upload new module](./help_files/Module_Version_Upload_New.png)
 
 Extract the newly uploaded zip file.
 
-![Extract New Module](help_files/Module_Version_Extract_New.png)
+![Extract New Module](./help_files/Module_Version_Extract_New.png)
 
 Refresh the Omeka S admin module page and click the "Upgrade" button for the module.
 

@@ -1,19 +1,21 @@
 # Updating Omeka S
 
-Updating Omeka S versions was a little tricky last time.
+Updating Omeka S versions was a little tricky last time. There are a couple quirks that take some tinkering.
 
-Omeka S has [documentation for updating manually](https://omeka.org/s/docs/user-manual/install/#updating)
+## Backup and Install New Version
 
-Log in to Domains
-Switch to the dogigilearn account
-Switch to inkandbolts cPanel Account
-Open File Manager
-Open digitalproject.davidson.edu folder
-Compress the `omeka` folder as a backup (this takes some time)
+Omeka S has [documentation for updating manually](https://omeka.org/s/docs/user-manual/install/#updating). Before installing, we need to back up.
 
-Download [Omeka S current release](https://omeka.org/s/download/)
+- Log in to Domains
+- Switch to the dogigilearn account
+- Switch to inkandbolts cPanel Account
+- Open File Manager
+- Open digitalproject.davidson.edu folder
+- Compress the `omeka` folder as a backup (this takes some time)
 
-Once the backup zip is complete, I'd recommend downloading it to your local machine as well. This seems to tie up the cPanel File Manager directories, so grab a cup of ☕ or 🍵 , take a 🙆🏼‍♂️, or go for a short 🚶.
+While that is zipping, download [Omeka S current release](https://omeka.org/s/download/)
+
+Once the backup zip is complete, I'd recommend downloading it to your local machine as well (just for redundancy). This seems to tie up the cPanel File Manager directories, so grab a cup of ☕ or 🍵 , take a 🙆🏼‍♂️, or go for a short 🚶.
 
 Follow the [Omeka S Updating Doc](https://omeka.org/s/docs/user-manual/install/#updating)
 When replacing the files, upload the zip file and unzip it in the directory.
@@ -47,3 +49,7 @@ Refresh the Omeka S admin module page and click the "Upgrade" button for the mod
 ![Upgrade module](./help_files/Module_Version_Upgrade.png)
 
 Repeat these steps for each Module and theme that has an update.
+
+## Check and Verify Sites
+
+Once the update is complete, it's good practice to load each site and test a sampling of pages and items. Different sites use different themes and utilize different modules. If you have any [outstanding forum posts](https://forum.omeka.org/c/omeka-s/8) or [issues in Omeka S's GitHub Repo](https://github.com/omeka/omeka-s/issues), check to see if the update has fixed any issues.

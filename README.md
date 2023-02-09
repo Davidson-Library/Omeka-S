@@ -1,40 +1,12 @@
-# Add Media with Alt Text
+# Davidson College Library Omeka S Repository
 
-This page goes through the process of adding media and its alt text to items.
+## Davidson College Library Context
 
-## Table of Contents
+Davidson College Library added Omeka S to the suite of technologies for digital scholarship and archives & special collections. This repository will hold internal documentation (day-to-day operations, one-time projects), code snippets (PHP, CSS, HTML), and external documentation that we've found helpful (both official Omeka S and the greater Omeka S community).
 
-* [Add Media](./#add-media)
-* [Select Media Template](./#select-media-template)
-* [Add Alt Text to Media](./#add-alt-text-to-media)
-* [Find Alt Text Examples on Web](./#find-alt-text-examples-on-web)
+- [Adding a Person](#adding-a-person)
+- [Adding a Physical Object](#adding-a-physical-object)
 
-### Add Media
+### [Adding a Person](Adding_Person.md)
 
-From the item page, select the Media tab. Click Upload under Add media on the right, give the media a Title (I used the same item title), choose the file and select Save. You can also link to media hosted elsewhere, but that runs the risk of that media getting moved or removed.
-
-![Upload Media](REL\_406/help\_files/New\_Item\_Media.png)_Upload file as media_
-
-### Select Media Template
-
-Once you'd uploaded or linked media to the item, you'll need to edit the media now.
-
-![Edit Media](REL\_406/help\_files/Edit\_Media.png)_Edit media_
-
-Since only the media's title is added when you upload, you should provide a little more information for the media itself. This is related to, but distinct from the item metadata. Most media will be either image or text.
-
-![Select Media Template](REL\_406/help\_files/Media\_Template.png)_Select Media Template_
-
-If you'd like to add a description, dates, or other metadata to the media, do so now. This is especially important when there are multiple media for a single item, e.g., different photographs, text announcement of the building opening, scan of a newspaper clipping about the opening ceremony.
-
-### Add Alt Text to Media
-
-While you're adding metadata to the media, copy/paste or create your own alternative text for the media. Select the Advanced tab and fill in the alt text in the Alt text field. Follow [WebAIM](https://webaim.org/techniques/alttext/#context) for good practices of alt text. Remove any "image of" or "graphic of" in the field. [WebAIM suggests](https://webaim.org/techniques/alttext/#context) removing these phrases from images. This adds to the richness of metadata and allows increased accessibility.
-
-![Add Alt Text](REL\_406/help\_files/Alt\_Text\_Add.png) _Add alt text to media_
-
-### Find Alt Text Examples on Web
-
-You can see what alt text other provide on most websites. Check the browser developer tools to find the alt text.
-
-![Dev Tools](REL\_406/help\_files/Alt\_Text\_Dev\_Tools.png)_Dev Tools for Alt Text_
+### [Adding a Physical Object](Adding_Physical_Object.md)

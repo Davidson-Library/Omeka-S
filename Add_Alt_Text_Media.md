@@ -13,7 +13,7 @@ This page goes through the process of adding media and its alt text to items.
 
 From the item page, select the Media tab. Click Upload under Add media on the right, give the media a Title (I used the same item title), choose the file and select Save. You can also link to media hosted elsewhere, but that runs the risk of that media getting moved or removed.
 
-![Upload Media](./help_files/New_Item_Media.png "Upload Media")*Upload or Link Media*
+![Upload Media](./help_files/New_Item_Media.png "Upload Media")
 
 ### Select Media Template
 

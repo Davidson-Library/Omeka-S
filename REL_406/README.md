@@ -10,7 +10,7 @@ This set of pages is here to guide you through the process of adding the sources
 
 ![Log in Screen](../help_files/Log_In_UN_PW.png)*Log in Screen*
 
-2. Click log in and you'll land on the Omeka S homepage. From here, you can . . .
+1. Click log in and you'll land on the Omeka S homepage. From here, you can . . .
 
 - search all items
 

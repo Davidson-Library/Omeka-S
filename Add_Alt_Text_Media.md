@@ -13,14 +13,17 @@ This page goes through the process of adding media and its alt text to items.
 
 From the item page, select the Media tab. Click Upload under Add media on the right, give the media a Title (I used the same item title), choose the file and select Save. You can also link to media hosted elsewhere, but that runs the risk of that media getting moved or removed.
 
-![Upload Media](./help_files/New_Item_Media.png)
+![Upload Media](./help_files/New_Item_Media.png)*Upload file as media*
 
 ### Select Media Template
 
+Once you'd uploaded or linked media to the item, you'll need to edit the media now.
+
+![Edit Media](./help_files/Edit_Media.png "Edit Media")*Edit media*
+
 Since only the media's title is added when you upload, you should provide a little more information for the media itself. This is related to, but distinct from the item metadata. Most media will be either image or text.
 
-![Select Media Template](help_files/Media_Template.png)
-*Select Media Template*
+![Select Media Template](help_files/Media_Template.png)*Select Media Template*
 
 If you'd like to add a description, dates, or other metadata to the media, do so now. This is especially important when there are multiple media for a single item, e.g., different photographs, text announcement of the building opening, scan of a newspaper clipping about the opening ceremony.
 

@@ -4,9 +4,12 @@ This set of pages is here to guide you through the process of adding the sources
 
 ## Table of Contents
 
+- [Overview of Omeka S](#overview-of-omeka-s)
+- [Add Items](#add-items)
+
 ### Overview of Omeka S
 
-1. Go to https://digitalprojects.davidson.edu/omeka/login and log in with your Davidson College email and the password you set before/during class.
+1. Go to [https://digitalprojects.davidson.edu/omeka/login](https://digitalprojects.davidson.edu/omeka/login) and log in with your Davidson College email and the password you set before/during class.
 
 ![Log in Screen](../help_files/Log_In_UN_PW.png)*Log in Screen*
 

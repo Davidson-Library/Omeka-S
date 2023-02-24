@@ -54,7 +54,7 @@ Make sure to copy over the **Works Cited** section of the original page (if incl
 
 Footnotes in Omeka S Video:
 
-![Video Test](https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSRZPbo-pZhAxAsR2avCHyBoOIIOqikXcPAgdvUDgWeQ_XhW1fjnamDZQEARMwyYk_lL1a_P60edkviND9q2P4VWDaFxg=w1920-h1080-k-pd)
+![Add Footnotes Video](../help_files/Add_Footnotes_OmekaS.mp4)
 
 #### Save and View each page for consistency and accessibility
 

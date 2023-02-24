@@ -38,3 +38,5 @@ While you're adding metadata to the media, copy/paste or create your own alterna
 You can see what alt text other provide on most websites. Check the browser developer tools to find the alt text.
 
 ![Dev Tools](../help\_files/Alt\_Text\_Dev\_Tools.png)_Dev Tools for Alt Text_
+
+Now that you have an item with media and alt text, you're ready to [build a exhibit page](Build_Page.md)!

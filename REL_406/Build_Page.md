@@ -53,7 +53,8 @@ Make sure to copy over the **Works Cited** section of the original page (if incl
 *Works Cited Heading HTML Block*
 
 Footnotes in Omeka S Video:
-<iframe src="https://drive.google.com/file/d/13DELkRQsVRbf_vdH3_KZqJKV4R2OJEA-/preview" width="640" height="480" allow="autoplay"></iframe>
+
+![Video Test](https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSRZPbo-pZhAxAsR2avCHyBoOIIOqikXcPAgdvUDgWeQ_XhW1fjnamDZQEARMwyYk_lL1a_P60edkviND9q2P4VWDaFxg=w1920-h1080-k-pd)
 
 #### Save and View each page for consistency and accessibility
 

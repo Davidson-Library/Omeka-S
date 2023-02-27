@@ -4,6 +4,7 @@
 
 - [Add New Item](#add-new-item)
 - [Select Resource Template](#select-resource-template)
+- [Fill in Fields](#fill-in-fields)
 
 ### Add New Item
 
@@ -22,7 +23,9 @@ The **REL 406** Resource template will be selected by default. Stick with this. 
 ![Add New Item](../help_files/Add_Item_REL406.png "Add New Item for REL 406")
 *Add New Item for REL 406*
 
-Copy/Paste from your Google Docs if you already have this complete. Fill in as many fields as possible and save your item often. You can always go back and edit it.
+### Fill in Fields
+
+Copy/Paste from your Google Docs if you already have this complete. Fill in as many fields as possible and save your item often. You can always go back and edit it. The Omeka folks have a great page for [Working with Dublin Core.](https://omeka.org/classic/docs/Content/Working_with_Dublin_Core/) It's on their Omeka Classic site, but it applies to Omeka S, too.
 
 ![Item Metadata](../help_files/Add_Item_Full_REL406.png "Item Metadata")
 *Filled out Item Metadata*

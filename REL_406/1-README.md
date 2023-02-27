@@ -34,4 +34,4 @@ This set of pages is here to guide you through the process of adding the sources
 
 ![add new item](../help_files/Login_Add_Item.png)*add new item*
 
-You're now ready to start adding items, upload media, and create your exhibit! Click **Next** to create items in Omeka S.
+You're now ready to start adding items, upload media, and create your exhibit! Click **Next** :point_down: to create items in Omeka S.

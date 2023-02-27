@@ -10,28 +10,34 @@ This set of pages is here to guide you through the process of adding the sources
 
 1. Go to [https://digitalprojects.davidson.edu/omeka/login](https://digitalprojects.davidson.edu/omeka/login) and log in with your Davidson College email and the password you set before/during class.
 
-![Log in Screen](../help_files/Log_In_UN_PW.png)*Log in Screen*
+![Log in Screen](../help_files/Log_In_UN_PW.png)  
+*Log in Screen*
 
 2. Click log in and you'll land on the Omeka S homepage. From here, you can . . .
 
 - search all items
 
-![search items](../help_files/Login_Search.png)*search items*
+![search items](../help_files/Login_Search.png)  
+*search items*
 
 - view other sites
 
-![View all sites](../help_files/Login_Sites.png)*view all sites*
+![View all sites](../help_files/Login_Sites.png)  
+*view all sites*
 
 - edit the REL 406 site
 
-![edit REL 406 site](../help_files/Login_Site_View.png)
+![edit REL 406 site](../help_files/Login_Site_View.png)  
+*Edit Site*
 
 - view items and item sets
 
-![View items and item sets](../help_files/Login_Items.png)*View items and item sets*
+![View items and item sets](../help_files/Login_Items.png)  
+*View items and item sets*
 
 - add new items
 
-![add new item](../help_files/Login_Add_Item.png)*add new item*
+![add new item](../help_files/Login_Add_Item.png)  
+*add new item*
 
-You're now ready to start adding items, upload media, and create your exhibit! Click **Next** :point_down: to create items in Omeka S.
+3. You're now ready to start adding items, upload media, and create your exhibit! Click **Next** :point_down: to create items in Omeka S.

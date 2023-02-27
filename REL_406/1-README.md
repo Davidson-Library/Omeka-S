@@ -5,9 +5,6 @@ This set of pages is here to guide you through the process of adding the sources
 ## Table of Contents
 
 - [Overview of Omeka S](#overview-of-omeka-s)
-- [Add Items](#add-items)
-- [Add Media](#add-media)
-- [Build Exhibit Page](#build-exhibit-page)
 
 ### Overview of Omeka S
 
@@ -37,8 +34,4 @@ This set of pages is here to guide you through the process of adding the sources
 
 ![add new item](../help_files/Login_Add_Item.png)*add new item*
 
-### [Add Items](Add_Item.md)
-
-### [Add Media](Add_Alt_Text_Media.md)
-
-### [Build Exhibit Page](Build_Page.md)
+You're now ready to start adding items, upload media, and create your exhibit! Click **Next** to create items in Omeka S.

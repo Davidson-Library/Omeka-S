@@ -1,2 +1,0 @@
-# Updating Omeka S
-

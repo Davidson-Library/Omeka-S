@@ -4,41 +4,41 @@ This set of pages is here to guide you through the process of adding the sources
 
 ## Table of Contents
 
-- [Overview of Omeka S](#overview-of-omeka-s)
-- [Add Items](#add-items)
-- [Add Media](#add-media)
-- [Build Exhibit Page](#build-exhibit-page)
+* [Overview of Omeka S](./#overview-of-omeka-s)
+* [Add Items](./#add-items)
+* [Add Media](./#add-media)
+* [Build Exhibit Page](./#build-exhibit-page)
 
 ### Overview of Omeka S
 
 1. Go to [https://digitalprojects.davidson.edu/omeka/login](https://digitalprojects.davidson.edu/omeka/login) and log in with your Davidson College email and the password you set before/during class.
 
-![Log in Screen](../help_files/Log_In_UN_PW.png)*Log in Screen*
+![Log in Screen](../help\_files/Log\_In\_UN\_PW.png)_Log in Screen_
 
 2. Click log in and you'll land on the Omeka S homepage. From here, you can . . .
 
-- search all items
+* search all items
 
-![search items](../help_files/Login_Search.png)*search items*
+![search items](../help\_files/Login\_Search.png)_search items_
 
-- view other sites
+* view other sites
 
-![View all sites](../help_files/Login_Sites.png)*view all sites*
+![View all sites](../help\_files/Login\_Sites.png)_view all sites_
 
-- edit the REL 406 site
+* edit the REL 406 site
 
-![edit REL 406 site](../help_files/Login_Site_View.png)
+![edit REL 406 site](../help\_files/Login\_Site\_View.png)
 
-- view items and item sets
+* view items and item sets
 
-![View items and item sets](../help_files/Login_Items.png)*View items and item sets*
+![View items and item sets](../help\_files/Login\_Items.png)_View items and item sets_
 
-- add new items
+* add new items
 
-![add new item](../help_files/Login_Add_Item.png)*add new item*
+![add new item](../help\_files/Login\_Add\_Item.png)_add new item_
 
-### [Add Items](Add_Item.md)
+### [Add Items](readme/add\_item.md)
 
-### [Add Media](Add_Alt_Text_Media.md)
+### [Add Media](readme/add\_alt\_text\_media.md)
 
-### [Build Exhibit Page](Build_Page.md)
+### [Build Exhibit Page](readme/build\_page.md)

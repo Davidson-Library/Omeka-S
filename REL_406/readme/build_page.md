@@ -1,66 +1,59 @@
-#### New Page Setup
+# Build\_Page
+
+**New Page Setup**
 
 Add all info for the new page, including a **Title** and **Slug**. Depending on the page, **check the box next** to **Add to navigation**. Then **click Add**.
 
-![New Page Setup](../help_files/New_Page_Info.png "New Page Setup")
-*New Page Setup*
+![New Page Setup](../../help\_files/New\_Page\_Info.png) _New Page Setup_
 
-#### Details for Adding Content to Pages
+**Details for Adding Content to Pages**
 
 Now that the page has been created under the site, you can start adding content to mirror the original HTML/WP site. Below are two screenshots to provide an overview snapshot, including **HTML Blocks** and **Media Embed Blocks**
 
-![Page Layout Example](../help_files/Page_Layout.png "Page Layout Example")
-*Page Layout Example*
+![Page Layout Example](../../help\_files/Page\_Layout.png) _Page Layout Example_
 
-The image above :point_up:  is a snapshot of what a typical page looks like: HTML block as intro text/context, and the Media Embed block.
+The image above :point\_up: is a snapshot of what a typical page looks like: HTML block as intro text/context, and the Media Embed block.
 
-Below :point_down: is what it looks like in the public view.
+Below :point\_down: is what it looks like in the public view.
 
-![Layout Public View](../help_files/Layout_Pub_View.png "Layout Public View")
-*Layout Public View*
+![Layout Public View](../../help\_files/Layout\_Pub\_View.png) _Layout Public View_
 
-### How to Build Pages
+#### How to Build Pages
 
 Add Blocks to each Omeka S page, e.g., HTML and Media Embed to mirror the structure of original HTML site
 
-#### Copy Text to HTML Blocks
+**Copy Text to HTML Blocks**
 
 Copy the text from the HTML/WP site, either in the HTML view or public view. **Add new HTML block** and **paste** the text/code. If there's a heading, use **Heading 3** `<h3>` since `<h1>` (site title) and `<h2>` (page title) are already used.
 
-![HTML Block](../help_files/Add_HTML_Block.png "Add HTML Block")
-*Add HTML Block*
+![HTML Block](../../help\_files/Add\_HTML\_Block.png) _Add HTML Block_
 
-#### Add Media Embed Block
+**Add Media Embed Block**
 
 **Add Media Embed block** and **change Alignment** to **center**, **left**, or **right**, depending on the look and feel.
 
-![Media Embed Block](../help_files/Embed_Media_Block.png "Media Embed")
-*Embed Media Block*
+![Media Embed Block](../../help\_files/Embed\_Media\_Block.png) _Embed Media Block_
 
 **Add attachment** (quick add item on right panel) and **click Apply changes**
 
-![Select Item for Embed Block](../help_files/Quick_Add_Item.png "Add Media to Embed")
-*Add Item to Media Embed Block*
+![Select Item for Embed Block](../../help\_files/Quick\_Add\_Item.png) _Add Item to Media Embed Block_
 
-![Media Embed Apply Changes Button](../help_files/Embed_Media_Apply_Changes.png "Media Embed Apply Changes")
-*Media Embed Apply Changes*
+![Media Embed Apply Changes Button](../../help\_files/Embed\_Media\_Apply\_Changes.png) _Media Embed Apply Changes_
 
-#### Works Cited HTML Block
+**Works Cited HTML Block**
 
 Make sure to copy over the **Works Cited** section of the original page (if included) with **Works Cited** as a **Header 3**.
 
-![HTML Block Works Cited](../help_files/HTML_Block_Works_Cited.png "Works Cited HTML")
-*Works Cited Heading HTML Block*
+![HTML Block Works Cited](../../help\_files/HTML\_Block\_Works\_Cited.png) _Works Cited Heading HTML Block_
 
 Footnotes in Omeka S Video:
 
-[Add Footnotes Video](https://drive.google.com/file/d/13DELkRQsVRbf_vdH3_KZqJKV4R2OJEA-/view)
+[Add Footnotes Video](https://drive.google.com/file/d/13DELkRQsVRbf\_vdH3\_KZqJKV4R2OJEA-/view)
 
-#### Save and View each page for consistency and accessibility
+**Save and View each page for consistency and accessibility**
 
 **Click Save** then **View** to see what the public view looks like. You may need to adjust the alignment, but **medium** and **left/right** for the media embed seems to do best as "center" doesn't look all that great.
 
 Run a [WAVE test](https://wave.webaim.org/) to check for missing alt text, or other accessibility errors. If you have 0 errors, "check mark" the appropriate columns in the GSheet tracker.
 
-![Wave Test Screenshot](../help_files/WAVE_Test.png "Wave Test")
-*Wave Test*
+![Wave Test Screenshot](../../help\_files/WAVE\_Test.png) _Wave Test_

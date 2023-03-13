@@ -5,6 +5,7 @@
 - [Add New Item](#add-new-item)
 - [Select Resource Template](#select-resource-template)
 - [Fill in Fields](#fill-in-fields)
+- [Add Item to Item Set](#add-item-to-item-set)
 
 ### Add New Item
 
@@ -29,5 +30,13 @@ Copy/Paste from your Google Docs if you already have this complete. Fill in as m
 
 ![Item Metadata](../help_files/Add_Item_Full_REL406.png "Item Metadata")  
 *Filled out Item Metadata*
+
+### Add Item to Item Set
+
+To help organize the items added to the course site, you're going to assign each item to the REL 406 Item Set. Adding the item to an Item Set allows for easier search queries, timelines, and maps (see more info below).
+
+Click on the **Item Sets** tab, search the Item Set name, select it, and move on.
+
+![Add to Item Set](../help_files/Item_Set_Add1.png "Add Item to Item Set")
 
 Now that you have an item created, it's time to add [Media with alt text.](Add_Alt_Text_Media.md)

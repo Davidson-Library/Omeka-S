@@ -35,7 +35,7 @@ Copy/Paste from your Google Docs if you already have this complete. Fill in as m
 
 To help organize the items added to the course site, you're going to assign each item to the REL 406 Item Set. Adding the item to an Item Set allows for easier search queries, timelines, and maps (see more info below).
 
-Click on the **Item Sets** tab, search the Item Set name, select it, and move on.
+Click on the **Item Sets** tab, search the Item Set name, select it, then save.
 
 ![Add to Item Set](../help_files/Item_Set_Add1.png "Add Item to Item Set")
 

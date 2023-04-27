@@ -62,7 +62,10 @@ If there's a heading, use **Heading 3** `<h3>` since `<h1>` (site title) and `<h
 ![Media Embed Apply Changes Button](../help_files/Embed_Media_Apply_Changes.png "Media Embed Apply Changes")  
 *Media Embed Apply Changes*
 
-Continue adding your items/media with media embed blocks and your text with HTML. If you'd like to experiement with other blocks go ahead and play. I'm happy to meet with anyone that's interested in using another block, e.g., Timeline or Map.
+Continue adding your items/media with media embed blocks and your text with HTML. If you'd like to experiment with other blocks go ahead and play. I'm happy to meet with anyone that's interested in using another block, e.g., Timeline or Map. The [Cake Race page from the Encyclopedia](https://digitalprojects.davidson.edu/omeka/s/college-archives-davidson-encyclopedia/page/cake-race) is an example page with alternating text (HTML Block) and floating media (Media Embed Block).
+
+![Page Layout with Floating Media](../help_files/page_layout_float.png "Page Layout with Floating Media")  
+*Page layout with floating media*
 
 #### Works Cited/Bibliography HTML Block
 

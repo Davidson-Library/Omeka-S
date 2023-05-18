@@ -6,7 +6,14 @@ Davidson College Library added Omeka S to the suite of technologies for digital 
 
 - [Adding a Person](#adding-a-person)
 - [Adding a Physical Object](#adding-a-physical-object)
+- [TODO](#todo)
 
 ### [Adding a Person](Adding_Person.md)
 
 ### [Adding a Physical Object](Adding_Physical_Object.md)
+
+### TODO
+
+- [ ] Add post-upgrade steps for library staff and student workers to do.
+- [ ] Further consolidate documentation pages (`.md` files) for internal use vs external (class) use
+- [ ] Solidify the GitBook integration, specifically for in-class use.

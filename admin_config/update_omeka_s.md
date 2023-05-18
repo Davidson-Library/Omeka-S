@@ -26,27 +26,27 @@ If it gives you an error, try changing the read/write permissions on the files (
 ## Module Updating
 
 Check the version in the Omeka S admin/Modules section
-![module version](./help_files/Module_Version_Check.png)
+![module version](../help_files/Module_Version_Check.png)
 
 Download the new version from the Modules page
 
-![download new version](./help_files/Module_Version_New_Download.png)
+![download new version](../help_files/Module_Version_New_Download.png)
 
 Compress the old version in the cPanel as a backup
 
-![compress module](./help_files/Module_Version_Compress.png)
+![compress module](../help_files/Module_Version_Compress.png)
 
 Click the Upload button and drag+drop the new module zip file.
 
-![upload new module](./help_files/Module_Version_Upload_New.png)
+![upload new module](../help_files/Module_Version_Upload_New.png)
 
 Extract the newly uploaded zip file.
 
-![Extract New Module](./help_files/Module_Version_Extract_New.png)
+![Extract New Module](../help_files/Module_Version_Extract_New.png)
 
 Refresh the Omeka S admin module page and click the "Upgrade" button for the module.
 
-![Upgrade module](./help_files/Module_Version_Upgrade.png)
+![Upgrade module](../help_files/Module_Version_Upgrade.png)
 
 Repeat these steps for each Module and theme that has an update.
 
